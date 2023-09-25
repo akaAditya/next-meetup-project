@@ -25,9 +25,13 @@ const Data = [
     address: "M4, 21404 New York",
   },
 ];
-const HomePage = () => {
+const HomePage = (props) => {
   return (
       <MeetupList meetups={Data} />
   );
 };
+
+// async function getData(){
+//   return Data
+// }
 export default HomePage;
